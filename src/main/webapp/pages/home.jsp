@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-Yes
+
+	<h2>Your name is ${name}</h2>
+	<br>
+	
+	<h4>
+		Id ${obj.id}, Name ${obj.name}, lang ${obj.lang}
+	</h4>
+
 </body>
 </html>
