@@ -17,7 +17,7 @@ public class HomeController {
 	@RequestMapping("home")
 	public String home() {
 				
-		return "home.jsp";
+		return "home";
 	}
 	
 	
@@ -40,7 +40,7 @@ public class HomeController {
 
 		return "home";
 	}
-	
+
 	//simple use of demo 2
 	@RequestMapping("demo3") 
 	public String demo3( String name, HttpSession ses ) {
